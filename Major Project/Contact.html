@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>Contact US</title>
+        <style>
+            .border{
+                /* Glass Blur Effect */
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0,);
+            /* Glass Blur Effect */
+
+            text-align: center;
+            border-width: 3px;
+            max-width: 400px;
+            color: black;
+           }
+
+           .border{
+            align-items:center;
+            margin-left: 550px;
+            margin-top: 150px;
+            padding-bottom: 60px;
+           }
+
+           #clip{
+            position: absolute;
+            object-fit: cover;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+           }
+           .gap{
+            line-height: 30px;
+            font-size: large;
+            text-align: left;
+            padding-left: 20px;
+           }
+
+           .btn{
+            padding: 8px 100px;
+            border-radius: 10px;
+            font-size: large;
+            background-color: rgb(136, 182, 205);
+           }
+           
+           .back{
+            color: blue;
+            font-size: medium;
+           }
+        </style>
+    </head>
+    <body>
+        <form action="con_success.html">
+            <video id="clip" autoplay loop  >
+                <source src="SnapSave.io-No Copyright - HD Background Motion Effects - Music Notes and Sol Key Layout-(1080p).mp4" type="video/mp4">
+            </video>
+            <div class="border">
+                <h1>CONTACT US</h1><br>
+                <div class="gap">
+                Full Name:<br><input type="text"><br>
+        
+                Phone Number:<br><input type="text"><br>
+        
+                Email:<br><input type="email" name="email"><br>
+                Query:<br>
+                <textarea border="5" cols="35" rows="5" class="msg">Meassage: </textarea><br>
+                </div>
+                <br>
+                <input type="submit" class="btn" >
+                <br>
+                <br>
+                <a href="index.html" class="back">back to HOME</a>
+            </div>
+        </form>
+    </body>
+</html>

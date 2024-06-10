@@ -1,0 +1,175 @@
+body,html{
+   margin: 0;
+   padding: 0;
+}
+
+body{
+    background-image:linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("guitar.jpg");
+    background-attachment: fixed;
+    background-size:  cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+ /* LOGO HERO */
+#fimg{
+   position: absolute;
+   top: 0;
+   margin: 0px;
+   padding: 0px;
+   padding-left:  30px;
+   height: 69px;
+   width: 270px;
+   z-index: 0;
+}
+/* BODY HEADER START */
+ .hp{
+    text-align: center;
+    padding-top: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+.hp h1{
+    font-size: 45px;
+    color: #d4ffd9;
+    font-weight: bold;  
+}
+
+ .hp a {
+    color: #D73964;
+    text-decoration: none;
+    font-size: 23px;
+    text-align: center;
+ }
+
+ .hp button{
+    background-color: rgba(0, 0, 0, 0.475);
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: #D73964;
+    padding: 14.5px 40px;
+ }
+
+ .hp button:hover{
+   background-color: #ffffff;
+   opacity: 0.5;
+   color: black;
+ }
+ /* BODY HEADER ENDS */
+
+ /* NAV BAR */
+nav{
+   background-color: white;
+   padding: 6px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: large;
+   flex-wrap: wrap;
+   border-radius: 5px;
+}
+/* Unknown start */
+ nav ul{ 
+   list-style-type: none;
+   padding-left: 400px;
+ }
+/* Unknown End */
+nav ul li{
+   display: inline;
+   padding: 18px;
+}
+nav ul a{
+   color: black;
+   text-decoration: none;
+   padding: 10px;
+   margin: 5px;
+}
+nav ul a:hover{
+   background-color: #D73964;
+   color: white;
+   padding: 10px;
+   border-radius: 3px;
+}
+
+.checkbtn{
+   font-size: 30px;
+   color: black;
+   float: right;
+   line-height: 80px;
+   margin-right: 40px;
+   cursor: pointer;
+   display: none;
+}
+
+#check{
+   display: none;
+}
+
+/* FOOTER */
+footer{
+   margin-top: 390px;
+}
+
+footer {
+    background-color: white; /* Dark background color */
+    color: #D73964; /* White text color */
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+footer h3, footer h4 {
+    margin-bottom: 10px;
+}
+
+footer .hh {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+footer .address, footer .quick, footer .details {
+    flex: 1;
+    margin: 10px 20px;
+}
+
+footer .address h4, footer .quick h3, footer .details h3 {
+    font-size: 18px;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+footer .address p, footer .details p, footer .quick ul {
+    margin: 5px 0;
+}
+
+footer .quick ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .quick ul li {
+    margin: 5px 0;
+}
+
+footer .quick ul li a {
+    color: #D73964;
+    text-decoration: none;
+}
+
+footer .quick ul li a:hover {
+    text-decoration: underline;
+}
+
+footer .details p {
+    margin: 5px 0;
+}
+
+footer .copy {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+footer .copy p {
+    margin: 0;
+}

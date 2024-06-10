@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Academy Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #ffffff;
+            color: #D73964;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: whitesmoke;
+            color: #D73964;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #D73964;
+            text-decoration: none;
+            padding: 10px;
+        }
+        nav a:hover {
+            background: #18040483;
+        }
+        section {
+            margin: 20px 0;
+        }
+        h2 {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .instructor, .testimonial {
+            margin-bottom: 20px;
+        }
+        footer {
+            background: whitesmoke;
+            color: #D73964;
+            text-align: center;
+            padding: 10px 0;
+        }
+        @media (max-width: 768px) {
+            .container {
+                width: 100%;
+                padding: 0 10px;
+            }
+            nav {
+                flex-direction: column;
+            }
+        }
+
+        #fimg{
+            position: absolute;
+            margin: -115px -210px;
+            height: 134px;
+            width: 450px;
+            z-index: 0;         
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>[Academy Name]</h1>
+        <img src="icon.png" id="fimg">
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#courses">Courses</a>
+        <a href="#instructors">Instructors</a>
+        <a href="#store">Store</a>
+        <a href="#testimonials">Testimonials</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Us</h2>
+            <p>At [Academy Name], we are dedicated to the art of music education and the joy of making music accessible to all. Founded in 2010, our mission is to provide top-tier musical instruction and a wide selection of quality instruments to our community. Our passionate team of instructors and staff work tirelessly to foster a supportive environment where students of all ages and skill levels can thrive.</p>
+            <h3>Our Values:</h3>
+            <ul>
+                <li><strong>Excellence:</strong> We strive to deliver the highest quality education and products.</li>
+                <li><strong>Community:</strong> We believe in building a nurturing and inclusive musical community.</li>
+                <li><strong>Passion:</strong> Our goal is to instill a lifelong love and appreciation for music in our students.</li>
+            </ul>
+        </section>
+        <section id="courses">
+            <h2>Courses</h2>
+            <p>Our academy offers a diverse range of music courses designed to suit various ages and skill levels. From classical to contemporary, our curriculum is tailored to meet the unique needs of each student.</p>
+            <h3>Instrumental Courses:</h3>
+            <ul>
+                <li><strong>Piano:</strong> Classical, jazz, and contemporary styles.</li>
+                <li><strong>Guitar:</strong> Acoustic, electric, bass, and classical guitar.</li>
+                <li><strong>Violin:</strong> Beginner to advanced levels, including ensemble playing.</li>
+                <li><strong>Drums:</strong> Rock, jazz, and contemporary styles.</li>
+                <li><strong>Flute:</strong> Classical and contemporary techniques.</li>
+                <li><strong>Saxophone:</strong> Jazz and classical training.</li>
+            </ul>
+            <h3>Vocal Training:</h3>
+            <ul>
+                <li><strong>Classical:</strong> Technique, opera, and art songs.</li>
+                <li><strong>Contemporary:</strong> Pop, rock, and musical theatre.</li>
+                <li><strong>Choir:</strong> Group singing and harmony.</li>
+            </ul>
+            <h3>Special Programs:</h3>
+            <ul>
+                <li><strong>Music Theory:</strong> Understanding the fundamentals of music.</li>
+                <li><strong>Songwriting:</strong> Creative composition and lyric writing.</li>
+                <li><strong>Music Production:</strong> Digital music creation and recording techniques.</li>
+                <li><strong>Ensemble Playing:</strong> Group performance skills.</li>
+                <li><strong>Early Childhood Music Education:</strong> Introducing music to young children through interactive activities.</li>
+            </ul>
+        </section>
+        <section id="instructors">
+            <h2>Our Instructors</h2>
+            <div class="instructor">
+                <h3>Kiran Kumar, Piano</h3>
+                <p>With a Master's in Music from Juilliard, Kiran has over 7 years of teaching experience and a background in classical and jazz performance.</p>
+            </div>
+            <div class="instructor">
+                <h3>Micheal, Guitar</h3>
+                <p>A Berklee College of Music graduate, Micheal specializes in rock and contemporary guitar, with a focus on improvisation and composition.</p>
+            </div>
+            <div class="instructor">
+                <h3>Emily Brown, Violin</h3>
+                <p>Emily holds a Doctorate in Music Performance from the University of Michigan and has performed with numerous orchestras worldwide.</p>
+            </div>
+            <div class="instructor">
+                <h3>Pavan Naga Sai, Drums</h3>
+                <p>A professional drummer with a degree from the Manhattan School of Music, Michael has toured internationally with various bands.</p>
+            </div>
+            <div class="instructor">
+                <h3>Sarah Lee, Vocal</h3>
+                <p>Sarah is a classically trained soprano with a Master's in Vocal Performance from the Royal Academy of Music, specializing in opera and art songs.</p>
+            </div>
+            <div class="instructor">
+                <h3>Santhosh, Flute</h3>
+                <p>Santhosh is a classically trained flutist with a Master's in flute Performance from the Royal Academy of Music, specializing in opera and art songs.</p>
+            </div>
+        </section>
+        <section id="store">
+            <h2>Store</h2>
+            <p>Our store is a one-stop-shop for all your musical needs, offering a wide range of instruments, accessories, and sheet music. We cater to beginners, hobbyists, and professional musicians alike, ensuring everyone finds what they need.</p>
+            <h3>Product Categories:</h3>
+            <ul>
+                <li><strong>Instruments:</strong> Pianos, guitars, violins, drums, flutes, saxophones, and more.</li>
+                <li><strong>Accessories:</strong> Strings, reeds, mouthpieces, drumsticks, stands, and more.</li>
+                <li><strong>Sheet Music:</strong> Classical, jazz, pop, rock, and more.</li>
+                <li><strong>Audio Equipment:</strong> Amplifiers, microphones, recording gear, and more.</li>
+            </ul>
+            <h3>Special Offers:</h3>
+            <ul>
+                <li>Student Discounts</li>
+                <li>Bundled Packages</li>
+                <li>Seasonal Sales</li>
+            </ul>
+        </section>
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+            <h3>Student Reviews:</h3>
+            <p>"The piano classes at Sarigama have been transformative. I've seen significant improvement in my technique and confidence." - Emma R.</p>
+            <p>"As a beginner guitarist, I found the courses to be incredibly supportive and engaging. The instructors are fantastic!" - Mike L.</p>
+            <h3>Instructor Highlights:</h3>
+            <p>"My daughter has been taking violin lessons with Emily and her progress has been remarkable. Emily is an exceptional teacher." - Karen T.</p>
+            <p>"The drum lessons with Pavan Naga Sai are top-notch. He makes learning fun and accessible." - James P.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Sarigama. All rights reserved.</p>
+    </footer>
+</body>
+</html>
